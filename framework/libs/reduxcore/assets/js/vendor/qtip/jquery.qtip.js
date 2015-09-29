@@ -20,7 +20,7 @@ if ( typeof jQuery.qtip === 'undefined' ) {
         (function( factory ) {
             "use strict";
             if ( typeof define === 'function' && define.amd ) {
-                define( ['jquery'], factory );
+                define( ['jquery.qtip'], factory );
             }
             else if ( jQuery && !jQuery.fn.qtip ) {
                 factory( jQuery );
