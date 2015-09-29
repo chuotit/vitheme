@@ -19,11 +19,15 @@ global $vi_options;
 <div id="page" class="hfeed site">
 
 	<header id="header" class="site-header">
-		<div class="logo">
-			<?php vi_theme_logo($vi_options['logo-on'], $vi_options['logo-image']['url']); ?>
+		<div class="container">
+			<div class="logo">
+				<?php vi_theme_logo($vi_options['logo-on'], $vi_options['logo-image']['url']); ?>
+			</div>
 		</div>
 		<div class="main-menu">
-			<?php vi_theme_menu('premary'); ?>
+			<div class="container">
+				<?php vi_theme_menu('premary'); ?>
+			</div>
 		</div>
 	</header><!-- #header -->
 	<section class="content-area">
