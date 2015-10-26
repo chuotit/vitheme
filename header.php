@@ -31,3 +31,4 @@ global $vi_options;
 		</div>
 	</header><!-- #header -->
 	<section class="content-area">
+		<div class="container">
